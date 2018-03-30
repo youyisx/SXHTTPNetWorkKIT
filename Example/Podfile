@@ -2,7 +2,9 @@ use_frameworks!
 
 target 'SXHTTPNetWorkKIT_Example' do
   pod 'SXHTTPNetWorkKIT', :path => '../'
-
+  pod 'AFNetworking', '~> 3.0'
+  pod 'ReactiveCocoa', '~> 2.5'
+  
   target 'SXHTTPNetWorkKIT_Tests' do
     inherit! :search_paths
 

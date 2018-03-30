@@ -1,0 +1,44 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SXHTTPNetWorkKIT (0.1.0):
+    - AFNetworking (~> 3.0)
+    - ReactiveCocoa (~> 2.5)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - ReactiveCocoa (~> 2.5)
+  - SXHTTPNetWorkKIT (from `../`)
+
+EXTERNAL SOURCES:
+  SXHTTPNetWorkKIT:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SXHTTPNetWorkKIT: a28f61a89f8e98c98d5d05b5ac7b0cf8edc27152
+
+PODFILE CHECKSUM: 8835078b1cebee8a3aa2e19444fbc520de585fda
+
+COCOAPODS: 1.2.1
